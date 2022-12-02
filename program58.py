@@ -1,0 +1,11 @@
+f=open("sample.txt","w")
+f.write("Data File\n")
+x=input("Enter your Name: ")
+y=input("Enter your marks: ")
+
+f.write("Name: ")
+f.write(x)
+f.write("\n")
+f.write("Marks: ")
+f.write(y)
+f.close()
